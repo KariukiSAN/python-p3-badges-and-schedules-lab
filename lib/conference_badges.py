@@ -13,7 +13,7 @@ def assign_rooms(names):
       rooms = [
         f'Hello, {name[1]}! You\'ll be assigned to room {name[0]}!' for name in enumerate(names,1)]
       return rooms
-assign_rooms(['John','Terry','Michael','Loretta','Graham'])
+assign_rooms(['Guido','Edsger','Ada','Charles','Alan', 'Grace', 'Linus'])
 
 def printer(names):
     return None
