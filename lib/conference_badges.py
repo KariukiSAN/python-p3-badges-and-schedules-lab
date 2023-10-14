@@ -1,5 +1,6 @@
 def badge_maker(name):
-    return "Hello, my name is {}". format(name)
+    message = f'Hello, my name is {name}.'
+    return message
 
 def batch_badge_creator(names):
     return None
