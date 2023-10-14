@@ -10,7 +10,10 @@ def batch_badge_creator(names):
 
 
 def assign_rooms(names):
-    return None
+    room_assignments = []
+    for i, name in enumerate(names, 1):
+        room_assignments.append("Hello, {}! You'll be in room {}.".format(name, i))
+    return room_assignments
 
 def printer(names):
     return None
