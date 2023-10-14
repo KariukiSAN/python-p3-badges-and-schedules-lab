@@ -3,9 +3,9 @@ def badge_maker(name):
     return message
 
 def batch_badge_creator(names):
-    badges = []
-    for name in names:
-        badges.append (badge_maker(name))
+    messages = [f'Hello, my name is {name}.' for name in names]
+    return messages
+
 
 
 
