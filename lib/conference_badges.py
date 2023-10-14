@@ -16,4 +16,12 @@ def assign_rooms(names):
 assign_rooms(['Guido','Edsger','Ada','Charles','Alan', 'Grace', 'Linus'])
 
 def printer(names):
-    return None
+    message = batch_badge_creator(names)
+    for welcome_message in message:
+        print(welcome_message)
+    assignments = assign_rooms(names)
+    for guest in assignments:
+        print(guest)
+
+
+
